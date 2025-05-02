@@ -1,0 +1,38 @@
+/*TOUT CE QUI SE TROUVE EN HAUT DE LA CALCULATRICE*/
+
+.Tete {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1.5fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    border: 1px solid green;
+}
+
+.Marque {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: 1 / 1 / 1 / 4;
+    border: 1px solid red
+}
+
+.Ecran {
+    grid-area: 2 / 1 / 3 / 4;
+    border: 1px solid blue;
+    background-color: rgb(177, 175, 175);
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*LA MOITIE BASSE DE LA CALCULATRICE*/
+
+
+.Corp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr;
+    border: 1px solid red;
+}
+
