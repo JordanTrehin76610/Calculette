@@ -40,6 +40,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr 1.5fr;
     border: 1px solid red;
+    gap: 1rem 0
 }
 
 .set {
@@ -57,7 +58,7 @@
 }
 
 
-/*L'ENFER DE TOUT LES BOUTON*/ 
+/*L'ENFER DE TOUT LES BOUTONS*/ 
 
 .OFF {
     grid-column: 1 / 2;
@@ -262,4 +263,15 @@
     align-self: center;
 }
 
+button {
+    width: 80%;
+}
 
+.boutton {
+    height: 3rem;
+}
+
+.boutton_plus {
+    height: 7rem;
+
+}
